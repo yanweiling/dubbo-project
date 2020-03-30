@@ -1,4 +1,4 @@
-package com.ywl.study.dubbo.core.domain;
+package com.ywl.study.rpc.domain;
 
 
 import lombok.AllArgsConstructor;

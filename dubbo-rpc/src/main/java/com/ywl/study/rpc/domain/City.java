@@ -1,12 +1,12 @@
-package com.ywl.study.dubbo.core.domain;
+package com.ywl.study.rpc.domain;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
-import lombok.experimental.Accessors;
 
 import java.io.Serializable;
+
 @Getter
 @Setter
 @NoArgsConstructor

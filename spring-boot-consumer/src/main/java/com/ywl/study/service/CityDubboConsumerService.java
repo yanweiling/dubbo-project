@@ -1,10 +1,11 @@
 package com.ywl.study.service;
 
 import com.alibaba.dubbo.config.annotation.Reference;
-import com.ywl.study.dubbo.core.domain.City;
-import com.ywl.study.dubbo.core.domain.User;
-import com.ywl.study.dubbo.core.service.CityDubboService;
-import com.ywl.study.dubbo.core.service.UserService;
+
+import com.ywl.study.rpc.domain.City;
+import com.ywl.study.rpc.domain.User;
+import com.ywl.study.rpc.service.CityDubboService;
+import com.ywl.study.rpc.service.UserService;
 import org.springframework.stereotype.Component;
 
 @Component

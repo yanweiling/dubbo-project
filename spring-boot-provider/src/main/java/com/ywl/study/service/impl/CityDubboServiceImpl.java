@@ -1,8 +1,8 @@
 package com.ywl.study.service.impl;
 
 import com.alibaba.dubbo.config.annotation.Service;
-import com.ywl.study.dubbo.core.domain.City;
-import com.ywl.study.dubbo.core.service.CityDubboService;
+import com.ywl.study.rpc.domain.City;
+import com.ywl.study.rpc.service.CityDubboService;
 
 
 @Service

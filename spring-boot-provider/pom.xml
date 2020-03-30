@@ -17,12 +17,11 @@
 	<properties>
 		<java.version>1.8</java.version>
 	</properties>
-
 	<dependencies>
 		<dependency>
-			<groupId>com.ywl.study.dubbo.core</groupId>
-			<artifactId>dubbo-core</artifactId>
-			<version>0.0.1-SNAPSHOT</version>
+			<groupId>com.ywl.study</groupId>
+			<artifactId>dubbo-rpc</artifactId>
+			<version>1.0-SNAPSHOT</version>
 		</dependency>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
@@ -69,5 +68,32 @@
 			</plugin>
 		</plugins>
 	</build>
+	<repositories>
+		<repository>
+			<id>my-nexus</id>
+			<name>my-nexus</name>
+			<url>http://106.13.99.195:8088/nexus/content/groups/public/</url>
+			<releases>
+				<enabled>true</enabled>
+			</releases>
+			<snapshots>
+				<enabled>true</enabled>
+			</snapshots>
+		</repository>
+	</repositories>
+	<pluginRepositories>
+		<pluginRepository>
+			<id>my-nexus</id>
+			<name>my-nexus</name>
+			<url>http://106.13.99.195:8088/nexus/content/groups/public/</url>
+			<releases>
+				<enabled>true</enabled>
+			</releases>
+			<snapshots>
+				<enabled>true</enabled>
+			</snapshots>
+		</pluginRepository>
+	</pluginRepositories>
+
 
 </project>

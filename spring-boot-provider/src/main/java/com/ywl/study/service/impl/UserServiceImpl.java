@@ -2,8 +2,8 @@ package com.ywl.study.service.impl;
 
 
 import com.alibaba.dubbo.config.annotation.Service;
-import com.ywl.study.dubbo.core.domain.User;
-import com.ywl.study.dubbo.core.service.UserService;
+import com.ywl.study.rpc.domain.User;
+import com.ywl.study.rpc.service.UserService;
 
 
 @Service

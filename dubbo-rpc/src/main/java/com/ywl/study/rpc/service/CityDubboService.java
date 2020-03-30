@@ -1,7 +1,7 @@
-package com.ywl.study.dubbo.core.service;
+package com.ywl.study.rpc.service;
 
 
-import com.ywl.study.dubbo.core.domain.City;
+import com.ywl.study.rpc.domain.City;
 
 public interface CityDubboService {
     /**
